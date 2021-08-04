@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.exampley.MahaLaxmiJewellers">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <queries>
+        <package android:name="com.whatsapp" />
+    </queries>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MLJ">
+        <activity android:name="com.exampley.MahaLaxmiJewellers.Activity.PrivercyPolicy"></activity>
+        <activity android:name="com.exampley.MahaLaxmiJewellers.Activity.ContectUs" />
+        <activity android:name="com.exampley.MahaLaxmiJewellers.Activity.Aad" />
+        <activity android:name="com.exampley.MahaLaxmiJewellers.Neklec" />
+        <activity android:name="com.exampley.MahaLaxmiJewellers.Activity.Pandel" />
+        <activity android:name="com.exampley.MahaLaxmiJewellers.Activity.Ramnavmi" />
+        <activity android:name="com.exampley.MahaLaxmiJewellers.Activity.Topas" />
+        <activity android:name="com.exampley.MahaLaxmiJewellers.Activity.Nath" />
+        <activity android:name="com.exampley.MahaLaxmiJewellers.Activity.Madaliyo" />
+        <activity android:name="com.exampley.MahaLaxmiJewellers.Activity.JodhaHar" />
+        <activity android:name="com.exampley.MahaLaxmiJewellers.Activity.Hathful" />
+        <activity android:name="com.exampley.MahaLaxmiJewellers.Activity.Bali" />
+        <activity android:name="com.exampley.MahaLaxmiJewellers.Activity.bajerkanto" />
+        <activity android:name="com.exampley.MahaLaxmiJewellers.Activity.Varification_Activity" />
+        <activity android:name="com.exampley.MahaLaxmiJewellers.Activity.Chudiya" />
+        <activity android:name="com.exampley.MahaLaxmiJewellers.Activity.AboutUs" />
+        <activity android:name="com.exampley.MahaLaxmiJewellers.Activity.PattaJhala" />
+        <activity android:name="com.exampley.MahaLaxmiJewellers.Activity.Chain" />
+        <activity android:name="com.exampley.MahaLaxmiJewellers.Activity.Kanti" />
+        <activity android:name="com.exampley.MahaLaxmiJewellers.Activity.RakdiSet" />
+        <activity android:name="com.exampley.MahaLaxmiJewellers.Activity.MangelSutra" />
+        <activity android:name="com.exampley.MahaLaxmiJewellers.Activity.SheeshPhool" />
+        <activity android:name="com.exampley.MahaLaxmiJewellers.Activity.Ring" />
+        <activity android:name="com.exampley.MahaLaxmiJewellers.Activity.Puncha" />
+        <activity android:name="com.exampley.MahaLaxmiJewellers.Activity.Baajubandh" />
+        <activity android:name="com.exampley.MahaLaxmiJewellers.Activity.Jumriya" />
+        <activity android:name="com.exampley.MahaLaxmiJewellers.Activity.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.exampley.MahaLaxmiJewellers.Activity.LoginActivity"
+            android:colorMode="wideColorGamut"
+            android:label="Login Page"
+            android:parentActivityName="com.exampley.MahaLaxmiJewellers.Activity.MainActivity"
+            android:theme="@style/Theme.AppCompat.Light" />
+        <activity
+            android:name="com.exampley.MahaLaxmiJewellers.Activity.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.MLJ.NoActionBar" />
+    </application>
+
+</manifest>

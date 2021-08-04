@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "358891270632",
+    "firebase_url": "https://mahalaxmi-bc444-default-rtdb.firebaseio.com",
+    "project_id": "mahalaxmi-bc444",
+    "storage_bucket": "mahalaxmi-bc444.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:358891270632:android:7aba0ca34d701e20e8f45d",
+        "android_client_info": {
+          "package_name": "com.exampley.MahaLaxmiJewellers"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "358891270632-421b4thrt90lmir0u2get4a8ieok39b2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.exampley.MahaLaxmiJewellers",
+            "certificate_hash": "ee4424d3aa4bab5692401b60834d179f1a8733ed"
+          }
+        },
+        {
+          "client_id": "358891270632-jbnl73ri1f3tls8kfg3pc4qukq0305md.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.exampley.MahaLaxmiJewellers",
+            "certificate_hash": "0638e0bc0ed1d5b031de90034e79f19353710d23"
+          }
+        },
+        {
+          "client_id": "358891270632-hsquq5pddtkltqgvv3hpentlikcevnt6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDS3U4qwlQfgCzyW04WB12chjYdflxiWA8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "358891270632-hsquq5pddtkltqgvv3hpentlikcevnt6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
